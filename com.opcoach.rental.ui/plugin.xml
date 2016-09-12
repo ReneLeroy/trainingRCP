@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            id="com.opcoach.rental.ui.category"
+            name="rental">
+      </category>
+      <view
+            category="com.opcoach.rental.ui.category"
+            class="com.opcoach.rental.ui.views.RentalView"
+            id="com.opcoach.rental.ui.views.rentaView"
+            name="Rental Property view"
+            restorable="true">
+      </view>
+   </extension>
+
+</plugin>
